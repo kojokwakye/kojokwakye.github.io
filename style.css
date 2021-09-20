@@ -9,7 +9,7 @@ body {
   background-color: rgba(15, 14, 17, 0.84);
 }
 .myself {
-  border: 2px solid rgb(0, 0, 0);
+  /* border: 2px solid rgb(0, 0, 0); */
   text-align: center;
   width: 320px;
   height: 150px;
