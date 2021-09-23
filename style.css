@@ -9,8 +9,11 @@ body {
 
 .main {
   position: absolute;
-  top: 50vh;
-  max-width: 320px;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  /* max-width: 100%; */
+  /* background-color: white; */
 }
 
 .essay {
@@ -19,13 +22,7 @@ body {
   margin: 0;
 }
 
-.fullname {
-  text-decoration: underline;
-  font-weight: bold;
-  text-align: left;
-  margin: 1px;
-  /* background-color: pink; */
-}
+
 
 a {
   text-decoration: none;
