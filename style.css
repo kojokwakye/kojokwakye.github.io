@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  background-color: darkorange;
+}
+
+.main {
+  position: absolute;
+  top: 50vh;
+  max-width: 320px;
+}
+
+.essay {
+  text-align: center;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.fullname {
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: left;
+  margin: 1px;
+  /* background-color: pink; */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: rgb(172, 115, 45);
+}
+
+.social_links {
+  /* background-color: green; */
+  text-align: center;
+}
+
+/* comment out background-colour for debugging */
