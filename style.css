@@ -1,43 +1,25 @@
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-   box-sizing: border-box;
-  font-size: 100%;
-}
-
 body {
-  background-color: darkorange;
+    background-color: darkorange;
 }
 
-.main {
+
+.text {
   position: absolute;
-  left: 0;
   top: 50%;
-  width: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.637);
-  /* background-color: white; */
+  bottom: 0;
+  font-family: sans-serif;
 }
 
-.essay {
-  text-align: center;
-  line-height: 1.5;
-  margin: 0 auto;
+h1 {
+    font-weight: normal;
+    font-size: 400;
 }
-
 a {
   text-decoration: none;
-  font-weight: lighter;
   color: inherit;
-  padding: 10px;
+  
 }
 
 a:hover {
-  color: rgb(75, 15, 7);
+    color: rgb(211, 168, 116);
 }
-
-.social_links {
-  /* background-color: green; */
-  text-align: center;
-}
-
-/* comment out background-colour for debugging */
