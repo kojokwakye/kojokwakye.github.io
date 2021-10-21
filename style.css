@@ -4,8 +4,8 @@ body {
 }
 
 .text {
- position: absolute;
- top: 50%;
+  position: absolute;
+  bottom: 40%;
 }
 
 h1 {
