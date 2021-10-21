@@ -1,24 +1,22 @@
 body {
-    background-color: darkorange;
-}
-
-
-.text {
-  position: absolute;
-  top: 50%;
+  background-color: darkorange;
   font-family: sans-serif;
 }
 
+.text {
+ position: absolute;
+ top: 50%;
+}
+
 h1 {
-    font-weight: normal;
-    font-size: 400;
+  font-weight: normal;
+  font-size: 400;
 }
 a {
   text-decoration: none;
   color: inherit;
-  
 }
 
 a:hover {
-    color: rgb(211, 168, 116);
+  color: rgb(211, 168, 116);
 }
