@@ -1,2 +1,1 @@
-practise how to center an element  
-
+i don't think frontend is my thing https://kojokwakye.github.io/
