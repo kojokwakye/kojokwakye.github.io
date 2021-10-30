@@ -1,16 +1,26 @@
 body {
-background-color: #edc9ff;
+  background-color: #edc9ff;
 }
+
+
+
+/* this is me trying to figure out how to center a div */
+
 
 .text {
   position: absolute;
-  bottom: 40%;
+  top: 35%;
+  left: 30%;
 }
+
+/* i am sorry  */
 
 h1 {
   font-weight: normal;
   font-size: 400;
 }
+
+
 a {
   text-decoration: none;
   color: inherit;
