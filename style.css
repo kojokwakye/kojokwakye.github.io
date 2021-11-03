@@ -1,5 +1,7 @@
 body {
   background-color: #edc9ff;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -8,9 +10,10 @@ body {
 
 
 .text {
-  position: absolute;
+  /* position: absolute;
   top: 30%;
-  left: 20%;
+  left: 20%; */
+  
 }
 
 /* i am sorry  */
