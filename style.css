@@ -1,19 +1,18 @@
 body {
-  background-color: #edc9ff;
+  background-color: #e5b1ff;
+  margin: auto;
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-
-
 /* this is me trying to figure out how to center a div */
-
 
 .text {
   /* position: absolute;
   top: 30%;
   left: 20%; */
-  
 }
 
 /* i am sorry  */
@@ -22,7 +21,6 @@ h1 {
   font-weight: normal;
   font-size: 400;
 }
-
 
 a {
   text-decoration: none;
