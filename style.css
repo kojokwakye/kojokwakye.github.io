@@ -7,14 +7,19 @@ body {
   height: 100vh;
 }
 
-h1 {
-  font-weight: lighter;
+h1,
+p {
+  /* font-weight: 300; */
+  font-family: "Zen Kurenaido", sans-serif;
 }
 
+p {
+  font-weight: bolder;
+}
 
 a {
   text-decoration: none;
-  /* color: inherit; */
+  color: inherit;
 }
 
 a:hover {
