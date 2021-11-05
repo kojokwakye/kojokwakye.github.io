@@ -7,28 +7,14 @@ body {
   height: 100vh;
 }
 
-/* this is me trying to figure out how to center a div */
-
-.text {
-  /* position: absolute;
-  top: 30%;
-  left: 20%; */
-}
-
-/* i am sorry  */
-
 h1 {
-  font-weight: normal;
-  font-size: 400;
+  font-weight: lighter;
 }
 
-p {
-  /* font-size: larger; */
-}
 
 a {
   text-decoration: none;
-  color: inherit;
+  /* color: inherit; */
 }
 
 a:hover {
