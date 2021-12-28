@@ -1,1 +1,4 @@
-i don't think frontend is my thing https://kojokwakye.github.io
+# ignore this.
+
+this is my **silly attempt** at building a personal website. front-end is not my thing   
+https://kojokwakye.github.io
