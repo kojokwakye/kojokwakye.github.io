@@ -1,4 +1,4 @@
 # ignore this.
 
-this is my **silly attempt** at building a personal website. front-end is not my thing   
+my *silly attempt* at building a personal website.  
 https://kojokwakye.github.io
