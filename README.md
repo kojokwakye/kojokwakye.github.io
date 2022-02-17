@@ -1,4 +1,4 @@
 # ignore this.
 
-my *silly attempt* at building a personal website.  
-https://kojokwakye.github.io
+my silly *[attempt](https://kojokwakye.github.io)* at building a personal website.  
+
