@@ -1,0 +1,28 @@
+body {
+  background-color: #08f;
+  color: white;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1,
+p {
+  font-weight: 300;
+}
+
+
+.links {
+  /* text-align: center;
+  margin-left: 20px; */
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: rgb(17, 14, 14);
+}
