@@ -1,14 +1,21 @@
 body {
-  height: 100vh;
   background-color: #08f;
+  color: white;
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+}
+
+h1,
+p {
+  font-weight: 300;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: inherit;
 }
 
 a:hover {
