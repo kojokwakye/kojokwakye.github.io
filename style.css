@@ -8,6 +8,10 @@ body {
   height: 100vh;
 }
 
+h1 {
+  text-decoration: underline;
+}
+
 h1,
 p {
   font-weight: 300;
