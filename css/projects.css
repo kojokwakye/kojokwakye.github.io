@@ -5,6 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
+  overflow: hidden;
 }
 
 a {
@@ -14,4 +15,8 @@ a {
 
 a:hover {
   color: rgb(17, 14, 14);
+}
+
+.gif {
+  border-radius: 40px;
 }
