@@ -9,17 +9,13 @@ body {
   overflow: auto;
   padding: 0 10px;
   margin: 10px;
-  /* font-family: "Josefin Slab", serif; */
+  font-family: "Courier New", Courier, monospace;
   font-size: 1.3rem;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
 }
 
 a {
-  color: white;
   text-decoration: none;
-  color: #ff00008f;
+  color: #00ffba6b;
 }
 
 a:hover {
@@ -34,7 +30,7 @@ a:hover {
   padding-left: 10px;
 }
 p {
-  line-height: 1.5em;
+  line-height: 1.3em;
   width: 325px;
 }
 
@@ -44,6 +40,10 @@ p {
 
 @media only screen and (max-device-width: 480px) {
   body {
-    font-size: 1.3em;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.2em;
+  }
+  p {
+    line-height: 1.2em;
   }
 }
