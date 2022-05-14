@@ -1,4 +1,4 @@
 # personal website
 
-my [attempt](https://kojokwakye.github.io) at building a personal website.  
+You can visit the deployed [site](https://kojokwakye.github.io)
 
