@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  /* outline: 1px solid yellow; */
 }
 
 body {
@@ -49,7 +48,7 @@ p {
 @media only screen and (max-device-width: 480px) {
   body {
     font-family: "Courier New", Courier, monospace;
-    font-size: 1.2em;
+    font-size: 17px;
   }
   p {
     line-height: 1.2em;
