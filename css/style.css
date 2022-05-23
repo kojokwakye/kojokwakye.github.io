@@ -7,10 +7,10 @@ body {
   min-height: 100%;
   color: white;
   overflow: auto;
-  /* padding: 0 10px; */
   margin: 20px;
   font-family: "Courier New", Courier, monospace;
   font-size: 1.3rem;
+  width: 50%;
 }
 
 a {
@@ -29,6 +29,11 @@ a:hover {
 p {
   line-height: 1.3em;
   width: 325px;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+
 }
 
 .photo {
