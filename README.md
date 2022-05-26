@@ -1,4 +1,4 @@
 # personal website
 
-You can visit the deployed [site](https://kojokwakye.github.io)
+check the deployed [site](https://kojokwakye.github.io)
 
