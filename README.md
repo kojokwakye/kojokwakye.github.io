@@ -1,4 +1,7 @@
 ## Personal website
 
-check the deployed [site](https://kojokwakye.github.io) !
+[site](https://kojokwakye.github.io) !
 
+
+*nb*
+-- i need a better shot of myself
