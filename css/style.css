@@ -22,13 +22,13 @@ a:hover {
   color: grey;
 }
 
-.nav-info {
+/* .nav-info {
   font-size: 15px;
-}
+} */
 
 p {
   line-height: 1.3em;
-  width: 325px; 
+  width: 325px;
   padding-bottom: 10px;
   padding-top: 15px;
   border-bottom: 1px solid #fff;
@@ -48,13 +48,15 @@ p {
   body {
     font-family: "Courier New", Courier, monospace;
     font-size: 17px;
-    width: 70vw;
+    width: 100%;
+    min-height: 100%;
+    /* overflow: auto; */
   }
   p {
-    line-height: 1.2em;
+    line-height: 1.1em;
   }
 
   .footer {
-    width: 100vw;
-}
+    width: 100%;
+  }
 }
