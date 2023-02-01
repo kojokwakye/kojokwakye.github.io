@@ -35,15 +35,6 @@ p {
   border-top: 1px solid #fff;
 }
 
-.photo {
-  width: 175px;
-}
-
-.image-section {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 @media only screen and (max-device-width: 480px) {
   body {
     font-family: "Courier New", Courier, monospace;
