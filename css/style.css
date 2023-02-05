@@ -23,10 +23,10 @@ body {
 }
 
 p {
-  /* line-height: 1.3em;
+  line-height: 1.3em;
   width: 400px;
   border-top: 1px solid #fff;
-  padding-top: 15px; */
+  padding-top: 15px;
 }
 
 .content {
@@ -45,6 +45,9 @@ a:hover {
 
 @media only screen and (max-device-width: 480px) {
   body {
-    /* width: 50%; */
+    height: 100%;
+  }
+  p {
+    width: 337px;
   }
 }
