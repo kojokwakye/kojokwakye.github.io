@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   /* outline: 1px solid blue; */
+  overflow: hidden;
 }
 html,
 body {
@@ -45,7 +46,7 @@ a:hover {
 
 @media only screen and (max-device-width: 480px) {
   body {
-    height: 100vh;
+    /* height: 100vh; */
   }
   p {
     width: 337px;
