@@ -16,11 +16,6 @@ body {
   color: white;
   font-family: "Courier New", Courier, monospace;
   display: flex;
-
-  /*
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
 }
 
 p {
@@ -45,9 +40,6 @@ a:hover {
 }
 
 @media only screen and (max-device-width: 480px) {
-  body {
-    /* height: 100vh; */
-  }
   p {
     width: 337px;
   }
