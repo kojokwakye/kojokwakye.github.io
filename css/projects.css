@@ -41,6 +41,9 @@ a:hover {
 }
 
 @media only screen and (max-device-width: 480px) {
+  body {
+    font-size: 16px;
+  }
   p {
     width: 337px;
   }
