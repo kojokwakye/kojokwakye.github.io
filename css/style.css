@@ -14,7 +14,7 @@ body {
 body {
   background-color: #10202efc;
   color: white;
-  font-family: "Courier New", Courier, monospace;
+  /* font-family: "Courier New", Courier, monospace; */
   display: flex;
 }
 
