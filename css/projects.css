@@ -16,15 +16,6 @@ body {
   font-family: "Courier New", Courier, monospace;
   display: flex;
 }
-/* body {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1.1rem;
-  background-color: #10202efc;
-  height: 100%;
-  color: #ffffff;
-  margin: 20px;
-  display: flex;
-} */
 
 .arrow {
   font-size: 30px;
@@ -36,7 +27,7 @@ p {
 }
 
 .content {
-  width: 360px;
+  width: 380px;
   margin: auto;
 }
 
