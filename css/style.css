@@ -1,33 +1,28 @@
 * {
-  box-sizing: border-box;
-  /* outline: 1px solid blue; */
-  overflow: hidden;
-}
-html,
-body {
-  height: 100%;
-  width: 100%;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid blue; */
 }
 
 body {
   background-color: #10202efc;
   color: white;
   font-family: "Courier New", Courier, monospace;
+  min-height: 100vh;
+
   display: flex;
 }
 
 p {
-  line-height: 1.5em;
-  width: 370px;
   border-top: 1px solid #fff;
   padding-top: 15px;
 }
 
 .content {
-  width: 370px;
+  width: 30vw;
   margin: auto;
+  line-height: 1.7em;
 }
 
 a {
@@ -40,14 +35,12 @@ a:hover {
 }
 
 @media only screen and (max-device-width: 480px) {
-  html,
   body {
+    min-height: 100vh;
     font-size: 16px;
     font-family: Georgia, serif;
   }
-  p {
-    width: 337px;
-  }
+
   .content {
     width: 90vw;
   }
