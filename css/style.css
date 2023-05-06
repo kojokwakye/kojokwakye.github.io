@@ -9,6 +9,7 @@ body {
   background-color: #10202efc;
   color: white;
   font-family: "Courier New", Courier, monospace;
+  font-size: 1.4rem;
   min-height: 100vh;
 
   display: flex;
@@ -38,7 +39,7 @@ a:hover {
   body {
     min-height: 100vh;
     font-size: 16px;
-    font-family: Georgia, serif;
+    font-family: "Courier New", Courier, monospace;
   }
 
   .content {
