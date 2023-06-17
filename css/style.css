@@ -11,7 +11,6 @@ body {
   font-family: "Courier New", Courier, monospace;
   font-size: 1.4rem;
   min-height: 100vh;
-
   display: flex;
 }
 
@@ -38,7 +37,7 @@ a:hover {
 @media only screen and (max-device-width: 800px) {
   body {
     min-height: 100vh;
-    font-size: 16px;
+    /* font-size: 16px; */
     font-family: "Courier New", Courier, monospace;
   }
 
