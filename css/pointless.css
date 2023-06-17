@@ -8,19 +8,10 @@ body {
   color: white;
   font-family: "Courier New", Courier, monospace;
   font-size: 1.4rem;
-  min-height: 100vh;
+  height: 100%;
   width: 50vw;
   padding: 15px;
 }
-
-/* a {
-  text-decoration: none;
-  color: #188266;
-}
-
-a:hover {
-  color: grey;
-} */
 
 .arrow {
   font-size: 40px;
@@ -28,32 +19,40 @@ a:hover {
 }
 
 h1 {
-  padding-bottom: 10px;
+  padding: 10px 0 15px;
   border-bottom: 1px solid #ffffff;
 }
-a,
-dt {
+
+a {
   text-decoration: none;
   color: #188266;
   padding-top: 10px;
 }
 
-a:hover,
-dt:hover {
+a:hover {
   color: grey;
 }
 
-dd {
-  margin: 0;
-  padding: 0 0 0.5em 0;
+.list-of-projects {
+  margin: 10px;
+  line-height: 30px;
 }
 
-@media only screen and (max-device-width: 480px) {
+.list {
+  margin-bottom: 30px;
+}
+.main-links::before {
+  content: "⊳ ";
+  color: white;
+}
+.code::before {
+  content: "⊷";
+}
+@media only screen and (max-device-width: 800px) {
   body {
-    min-height: 100%;
+    min-height: 100vh;
     font-size: 16px;
     font-family: "Courier New", Courier, monospace;
     width: 100vw;
-    /* margin: 10px; */
   }
 }
