@@ -6,7 +6,7 @@
 body {
   background-color: #10202efc;
   color: white;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Space Mono", monospace;
   font-size: 1.4rem;
   height: 100%;
   width: 50vw;
@@ -53,7 +53,7 @@ a:hover {
   body {
     min-height: 100vh;
     font-size: 18px;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Space Mono", monospace;
     width: 100vw;
   }
 
