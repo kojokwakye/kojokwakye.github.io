@@ -5,6 +5,10 @@
   /* outline: 1px solid blue; */
 }
 
+html {
+  height: 100%;
+}
+
 body {
   background-color: #10202efc;
   color: white;
@@ -14,15 +18,17 @@ body {
   display: flex;
 }
 
-p {
-  border-top: 1px solid #fff;
-  padding-top: 15px;
+.project-title {
+  font-weight: bold;
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
+  height: 40px;
+  /* outline: 1px solid grey; */
 }
 
 .content {
   width: 50vw;
   margin: auto;
-  line-height: 1.7em;
 }
 
 a {
@@ -34,7 +40,50 @@ a:hover {
   color: grey;
 }
 
-@media only screen and (max-device-width: 800px) {
+.links {
+  margin-top: 50px;
+}
+.list {
+  margin-bottom: 20px;
+  /* outline: 1px solid red; */
+}
+
+.main-links::before {
+  content: "- ";
+  color: white;
+}
+.footer {
+  height: 40px;
+  border-top: 1px solid white;
+  margin-top: 50px;
+  display: flex;
+  /* outline: 1px solid grey; */
+  justify-content: space-between;
+}
+.footer-links {
+  margin-top: 10px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    min-height: 100vh;
+    font-size: 20px;
+    font-family: "Space Mono", monospace;
+    margin-top: 10px;
+  }
+
+  .content {
+    width: 90vw;
+    margin-top: 40px;
+  }
+
+  .footer {
+    margin-bottom: 20px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-device-width: 600px) {
   body {
     min-height: 100vh;
     font-size: 20px;
@@ -43,5 +92,24 @@ a:hover {
 
   .content {
     width: 90vw;
+  }
+  p {
+    line-height: 1.75rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    min-height: 100vh;
+    font-size: 20px;
+    font-family: "Space Mono", monospace;
+  }
+
+  .content {
+    width: 50vw;
+  }
+  p {
+    line-height: 1.75rem;
   }
 }

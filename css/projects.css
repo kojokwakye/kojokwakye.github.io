@@ -39,9 +39,6 @@ a:hover {
   line-height: 30px;
 }
 
-.list {
-  margin-bottom: 30px;
-}
 .main-links::before {
   content: "⊳ ";
   color: white;
