@@ -102,14 +102,14 @@ a:hover {
 @media only screen and (min-width: 768px) {
   body {
     min-height: 100vh;
-    font-size: 20px;
+    font-size: 17px;
     font-family: "Space Mono", monospace;
   }
 
   .content {
-    width: 50vw;
+    width: 40vw;
   }
   p {
-    line-height: 1.75rem;
+    line-height: 2rem;
   }
 }
