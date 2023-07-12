@@ -107,11 +107,7 @@ a:hover {
   }
 
   .content {
-<<<<<<< HEAD
-    width: 40vw;
-=======
-    width: 65vw;
->>>>>>> ebf609fb945463a7e6e999def7b31fabb32d169f
+    width: 45vw;
   }
   p {
     line-height: 2rem;
