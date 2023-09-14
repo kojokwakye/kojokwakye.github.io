@@ -1,14 +1,42 @@
 * {
-  box-sizing: border-box;
+  padding: 0;
   margin: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+
+html {
+  height: 100%;
 }
 
 body {
   background-color: #10202efc;
   color: white;
   font-family: "Space Mono", monospace;
-  font-size: 1.4rem;
-  height: 100%;
-  width: 50vw;
-  padding: 15px;
+  font-size: 18px;
+  margin: 20px;
+}
+.topbar {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.arrow {
+  font-size: 25px;
+}
+
+.content {
+  width: 60vw;
+}
+a {
+  text-decoration: none;
+  color: #188266;
+}
+
+a:hover {
+  color: grey;
+}
+
+.main-links::before {
+  content: "- ";
+  color: white;
 }
