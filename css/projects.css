@@ -24,9 +24,9 @@ body {
   font-size: 25px;
 }
 
-.content {
+/* .content {
   width: 60vw;
-}
+} */
 a {
   text-decoration: none;
   color: #188266;
@@ -39,4 +39,22 @@ a:hover {
 .main-links::before {
   content: "- ";
   color: white;
+}
+.list {
+  margin-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+.code {
+  margin-bottom: 8px;
+  margin-left: 20px;
+}
+@media (min-width: 320px) {
+  .content {
+    width: auto;
+  }
+}
+@media (min-width: 1025px) {
+  .content {
+    width: 60vw;
+  }
 }
