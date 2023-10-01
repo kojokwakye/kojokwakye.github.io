@@ -36,6 +36,9 @@ a:hover {
   color: grey;
 }
 
+span {
+  color: #188266;
+}
 .main-links::before {
   content: "- ";
   color: white;

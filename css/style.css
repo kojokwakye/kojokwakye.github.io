@@ -39,7 +39,9 @@ a {
 a:hover {
   color: grey;
 }
-
+span {
+  color: #188266;
+}
 .links {
   margin-top: 50px;
 }
