@@ -13,7 +13,7 @@ body {
   background-color: #10202efc;
   color: white;
   font-family: "Space Mono", monospace;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   min-height: 100vh;
   display: flex;
 }
@@ -103,7 +103,7 @@ span {
 @media only screen and (min-width: 768px) {
   body {
     min-height: 100vh;
-    font-size: 17px;
+    font-size: 14px;
     font-family: "Space Mono", monospace;
   }
 
