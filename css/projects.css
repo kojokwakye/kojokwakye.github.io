@@ -1,6 +1,5 @@
 * {
   padding: 0;
-  /* margin: 0; */
   box-sizing: border-box;
 }
 
@@ -17,14 +16,10 @@ body {
 }
 
 .topbar {
-  /* margin-bottom: 17px; */
   font-weight: bold;
-  /* font-size: 24px; */
 }
 
-.arrow {
-  /* font-size: 24px; */
-}
+
 
 
 a {
@@ -46,7 +41,6 @@ a:hover {
 }
 .code {
   margin-bottom: 8px;
-  /* margin-left: 20px; */
   margin-top: 7px;
 }
 @media (min-width: 320px) {
