@@ -22,7 +22,6 @@ body {
   border-bottom: 1px solid white;
   margin-bottom: 20px;
   height: 40px;
-  /* outline: 1px solid grey; */
 }
 
 .content {
@@ -46,7 +45,6 @@ span {
 }
 .list {
   margin-bottom: 20px;
-  /* outline: 1px solid red; */
 }
 
 .main-links::before {
