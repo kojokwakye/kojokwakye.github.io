@@ -8,18 +8,19 @@ html {
 }
 
 body {
-  background-color: #10202efc;
+  background-color: #060d4bef;
   color: white;
-  font-family: "Space Mono", monospace;
-  font-size: 14px;
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 1.4;
+  min-height: 100vh;
   margin: 20px;
+ 
 }
 
 .topbar {
   font-weight: bold;
 }
-
-
 
 
 a {
@@ -53,3 +54,18 @@ a:hover {
     width: 60vw;
   }
 } 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    min-height: 100vh;
+    
+    font-family: monospace;
+  }
+
+  .content {
+    width: 45vw;
+  }
+  p {
+    line-height: 1.4;
+  }
+}

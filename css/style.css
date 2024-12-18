@@ -60,12 +60,14 @@ span {
 }
 .footer-links {
   margin-top: 10px;
-} 
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   body {
     min-height: 100vh;
     font-family: monospace;
+    margin-top: 25px;
+
   }
 
   .content {
