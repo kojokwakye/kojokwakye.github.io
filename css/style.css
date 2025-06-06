@@ -3,9 +3,7 @@
   box-sizing: border-box;
 }
 
-html {
-  height: 100%;
-}
+
 
 body {
   background-color: #060d4bef;
@@ -66,7 +64,7 @@ span {
   body {
     min-height: 100vh;
     font-family: monospace;
-    margin-top: 25px;
+    /*! margin-top: 25px; */
 
   }
 
