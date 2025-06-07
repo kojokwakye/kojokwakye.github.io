@@ -3,28 +3,18 @@
   box-sizing: border-box;
 }
 
-
-
 body {
   background-color: #060d4bef;
   color: white;
   font-family: monospace;
   font-size: 16px;
   line-height: 1.4;
-  /* min-height: 100vh; */
-  /* margin: 20px; */
- 
+  min-height: 100vh;
 }
 
 .topbar {
   font-weight: bold;
 }
-
-
-/* a {
-  text-decoration: none;
-  color: #188266;
-} */
 
 a {
   text-decoration: none;
@@ -56,12 +46,12 @@ a:hover {
   .content {
     width: 60vw;
   }
-} 
+}
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   body {
     min-height: 100vh;
-    
+
     font-family: monospace;
   }
 
