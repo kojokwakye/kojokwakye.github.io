@@ -2,6 +2,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  min-height: 100vh;
+
+}
 
 body {
   background-color: #060d4bef;
