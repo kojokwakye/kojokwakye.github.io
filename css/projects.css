@@ -1,11 +1,8 @@
 * {
   padding: 0;
   box-sizing: border-box;
-  /*! margin: 0; */
 }
-html {
-  min-height: 100vh;
-}
+
 
 body {
   background-color: #060d4bef;
@@ -19,13 +16,6 @@ body {
 .topbar {
   font-weight: bold;
   margin-bottom: 30px;
-  /*! text-align: center; */
-  /*! display: flex; */
-  /*! align-content: center; */
-  /*! outline: 1px solid red; */
-  /*! justify-content: center; */
-  /*! width: 213px; */
-  /*! height: 97px; */
   flex-direction: column;
 }
 
@@ -50,27 +40,14 @@ a:hover {
   margin-bottom: 8px;
   margin-top: 7px;
 }
-@media (min-width: 320px) {
-  .content {
-    width: auto;
-  }
-}
-@media (min-width: 1025px) {
-  .content {
-    width: 60vw;
-  }
-}
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+
+@media only screen and (min-width: 900px) {
   body {
     min-height: 100vh;
-
     font-family: monospace;
   }
 
-  .content {
-    width: 45vw;
-  }
+
   p {
     line-height: 1.4;
   }
