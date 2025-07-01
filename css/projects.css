@@ -3,7 +3,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   background-color: #060d4bef;
   color: white;
@@ -46,7 +45,6 @@ a:hover {
     min-height: 100vh;
     font-family: monospace;
   }
-
 
   p {
     line-height: 1.4;
