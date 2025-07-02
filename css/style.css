@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #060d4bef;
+  /*! background-color: #060d4bef; */
   color: white;
   font-size: 16px;
   font-family: monospace;
@@ -12,6 +12,19 @@ body {
   min-height: 100vh;
   margin: 0;
   display: flex;
+  /* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #989898;
+  background-blend-mode: multiply, multiply;
 }
 
 .project-title {
@@ -62,7 +75,6 @@ span {
   body {
     min-height: 100vh;
     font-family: monospace;
-
   }
 
   .content {
