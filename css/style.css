@@ -1,5 +1,8 @@
 body {
-  font-family: system-ui, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
   background-color: #efefef;
   color: #292929;
   margin: 0;
@@ -16,6 +19,17 @@ main {
   max-width: 600px;
   width: 100%;
 }
+p:has(.things) {
+  margin-bottom: 0;
+}
+
+.intro {
+  margin-top: 0;
+}
+
+.things {
+  font-weight: 500;
+}
 
 ul {
   border-top: 0.5px solid grey;
@@ -25,6 +39,7 @@ ul {
 
 li {
   margin-bottom: 1rem;
+  border-top: 1px solid rgba(128, 128, 128, 0.223);
 }
 
 a {
