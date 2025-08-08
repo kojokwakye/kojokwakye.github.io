@@ -12,42 +12,28 @@ body {
   background-color: #efefef;
 }
 
-.topbar {
-  font-weight: bold;
-  margin-bottom: 30px;
-  flex-direction: column;
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+}
+
+li {
+  border-top: 1px solid grey;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+  padding: 5px;
+}
+
+strong {
+  font-weight: 600;
 }
 
 a {
+  color: #0066cc;
   text-decoration: none;
-  color:  #292929;
-  font-weight: bold;
 }
 
 a:hover {
-  color: grey;
-}
-
-.main-links::before {
-  content: "- ";
-  color:  #292929
-}
-.list {
-  margin-bottom: 14px;
-  border-bottom: 1px solid #292929;
-}
-.code {
-  margin-bottom: 8px;
-  margin-top: 7px;
-}
-
-@media only screen and (min-width: 900px) {
-  body {
-    min-height: 100vh;
-    font-family: monospace;
-  }
-
-  p {
-    line-height: 1.4;
-  }
+  text-decoration: none;
 }

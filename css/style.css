@@ -14,11 +14,20 @@ body {
   background-color: #efefef;
 }
 
-.project-title {
-  font-weight: bold;
-  border-bottom: 1px solid  #292929;
-  margin-bottom: 20px;
-  height: 40px;
+button {
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  box-shadow: 0 0.5px #999;
+  /* padding: 5px; */
+  background-color: #efefef;
+}
+button:hover {
+  background: none;
+}
+button:active {
+  box-shadow: 0 0.5px #666;
+  transform: translateY(2px);
 }
 
 .content {
@@ -35,12 +44,13 @@ a {
 a:hover {
   color: grey;
 }
-span {
-  /*! color: #188266; */
+.project-title {
+  font-weight: bold;
 }
 .links {
-  margin-top: 50px;
+  border-top: 0.5px solid grey;
 }
+
 .list {
   margin-bottom: 20px;
 }
@@ -49,7 +59,7 @@ span {
   color: white;
 }
 .footer {
-  border-top: 1px solid grey;
+  border-top: 0.5px solid grey;
   margin-top: 25px;
   display: flex;
   justify-content: space-between;
